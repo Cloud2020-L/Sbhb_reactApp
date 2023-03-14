@@ -1,0 +1,36 @@
+.FilterMeals{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    height: 120rem;
+    z-index: 999;
+    background-color: #fff;
+    border-bottom: 1rem solid #f2f2f2;
+}
+.InputOuter{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* 输入框 */
+.SearchInput{
+    width: 650rem;
+    height: 70rem;
+    border: none;
+    border-radius: 18px;
+    background-color: #f2f2f2;
+    outline: none;
+    padding-left: 61rem;
+    font-size: 30rem;
+}
+/* 搜索图标 */
+.SearchIcon{
+    font-size: 40rem;
+    position: absolute;
+    left: 10rem;
+    color: #aaa;
+}

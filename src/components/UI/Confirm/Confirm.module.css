@@ -1,0 +1,37 @@
+.ConfirmOuter{
+    z-index: 9999;
+}
+/* 清空购物车弹框外部容器 */
+.Confirm{
+    width: 700rem;
+    height: 300rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* 提示文字大小 */
+.ConfirmText{
+    font-size: 38rem;
+}
+/* 按钮大小 */
+.Cancel, .Yes{
+    width: 180rem;
+    height: 60rem;
+    border: 1px solid #ccc;
+    font-size: 28rem;
+    border-radius: 20px;
+}
+.Yes{
+    border: none;
+    background-color: #fcbf49;
+    margin-left: 50rem;
+}

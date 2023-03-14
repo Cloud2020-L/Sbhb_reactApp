@@ -1,0 +1,8 @@
+.Meals{
+    position: absolute;
+    top: 120rem;
+    bottom: 0;
+    /* 把滚动条设置给父容器 */
+    overflow: auto;
+    padding-bottom: 120rem;
+}

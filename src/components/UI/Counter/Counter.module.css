@@ -1,0 +1,27 @@
+.Counter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.counterSub,
+.counterAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36rem;
+    height: 36rem;
+    border: none;
+    background-color: #FCBF49;
+    font-size: 24rem;
+    border-radius: 50%;
+    padding: 0;
+}
+.counterSub{
+    background-color: #fff;
+    border: 1px solid black;
+}
+.counterSpan{
+    font-size: 32rem;
+    margin: 0 18rem;
+}
